@@ -1,12 +1,17 @@
 import React from "react";
 import "./App.css";
+import Header from './Components/Header';
+import PictureCard from "./Components/Picture";
+import Picture from './Components/Picture';
+import RandomPic from './Components/RandomPic';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+      <Header/>
+      <Picture/>
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
+        <span role="img" aria-label='go!'>🚀</span>!
       </p>
     </div>
   );
